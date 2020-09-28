@@ -12,3 +12,10 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+import math
+num1 = float(input("Enter the first number"))
+num2 = float(input("Enter the second number"))
+num3 = float(input("Enter the third number"))
+
+
+

@@ -11,3 +11,9 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+number = float(input("Enter the number"))
+value = number % 2
+if value == 1:
+    print("The number is odd")
+else :
+    print("The number is even")
