@@ -15,3 +15,16 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+import math
+
+a = float(input("Enter 'a' value"))
+b = float(input("Enter 'b' value"))
+c = float(input("Enter 'c' value"))
+
+discri = b**2 - 4 * a * c
+
+if (discri == 0) and (discri**(1/2) == math.ceil(discri**(1/2))):
+    print("the equation can be factored")
+else:
+    print("the equation can not be factored")
