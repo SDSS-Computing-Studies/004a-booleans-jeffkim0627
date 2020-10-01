@@ -15,6 +15,6 @@ number = float(input("Enter number to check it is larger than 100"))
 if number > 100:
     print("The number is larger than 100")
 elif number < 100:
-    print("The number is smaller than to 100")
+    print("The number is smaller than 100")
 elif number == 100:
-    print("The number is equal to 100")
+    print("The number is 100")
