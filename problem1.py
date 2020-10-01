@@ -14,6 +14,6 @@
 number = float(input("Enter the number"))
 value = number % 2
 if value == 1:
-    print("The number is odd")
+    print("the number is odd")
 else :
     print("The number is even")

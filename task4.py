@@ -14,4 +14,4 @@ value = "password" in sentence
 if value == True:
     print("The sentence contains password")
 else :
-    print("The sentence does not contains password")
+    print("the sentence does not contain password")
